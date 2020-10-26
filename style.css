@@ -1,0 +1,78 @@
+body {
+  background-color: white;
+}
+
+header {
+  background-color: white;
+  text-align: center;
+}
+
+.fan {
+  border: black solid 1px;
+  font-size: 1.5rem;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+
+}
+
+h4 {
+  margin-bottom: 2rem;
+}
+
+.container {
+  
+  width: 100%;
+  max-width: 700px;
+}
+
+.middle {
+    border-left: black solid 1px;
+    width: 60px
+}
+  
+.container-footer {
+  width: auto;
+  max-width: 680px;
+  padding: 0 0px;
+}
+
+.footer {
+  background-color: #f5f5f5;
+}  
+
+.navbar .in .nav li {
+   display: block;
+   float: none;
+   width:100%;
+}
+
+/* .btn .btn-outline-warning .btn-lg .btn-block {
+  font-size: 10rem;
+} */
+
+.btn {
+  font-size: 1.25rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: 'Righteous', cursive;
+}
+
+.header_hbp {
+  margin-top: 2rem;
+}
+
+li {
+  padding-bottom: 20px;
+}
+
+/* section {
+  padding: 10px;
+} */
