@@ -32,6 +32,8 @@
   </header> -->
 
   <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+  <!-- <nav class="navbar navbar-default navbar-static-top"> -->
+
     <a class="navbar-brand" href="https://2625columbusmpls.com">2625 Columbus</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03"
       aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,10 +43,22 @@
     <div class="collapse navbar-collapse" id="navbarsExample03">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#maint_req">Maintenance</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="#pay_rent">Pay Rent</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#trash_col">Trash Collection</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#move_in_out">Move-In/Out</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#pay_rent">Pay Rent</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -57,7 +71,7 @@
             <a class="dropdown-item" href="#">Another action</a>
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
-        </li>
+        </li> -->
       </ul>
       <form class="form-inline my-2 my-md-0">
         <input class="form-control" type="text" placeholder="Search">
@@ -67,7 +81,7 @@
 
   <main class="container">
         
-    <section>
+    <section id="maint_req" class="section">
       
             <div class="row fan">
               <div class="col-sm">
@@ -87,7 +101,7 @@
         
     </section>
 
-    <section>
+    <section id="pay_rent" class="section">
       
       
         <div class="row fan">
@@ -103,7 +117,7 @@
   
     </section>
 
-    <section>
+    <section id="trash_col" class="section">
         
         <div class="row fan">
           <!-- <p>Trash Collection</p> -->
@@ -111,10 +125,14 @@
                 <div class="col-sm">
                   <h4>Trash Collection Schedule</h4>
                  
-                    <iframe
+                    <!-- <iframe
                       src="https://calendar.google.com/calendar/embed?height=350&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=ZWs4aGxmMWQ4Y2ZuNzFtZWQ0dHNlZjdpNGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23616161&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0"
                       style="border-width:0" width="100%" height="400" frameborder="0" scrolling="no">
-                    </iframe>
+                    </iframe> -->
+
+                    <iframe
+                      src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%2329527A&amp;ctz=America%2FChicago&amp;src=ZWs4aGxmMWQ4Y2ZuNzFtZWQ0dHNlZjdpNGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%2329527A&amp;color=%232F6309&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0"
+                      style="border:solid 3px rgb(119, 119, 119)" width="100%" height="325" frameborder="0" scrolling="no" ></iframe>
                     
                 </div>
                 
@@ -138,7 +156,7 @@
       
     </section> -->
 
-    <section>
+    <section id="move_in_out" class="section">
           
           <div class="row fan">
             <div class="col-sm">
@@ -150,9 +168,9 @@
                <!-- <p>Xcel Electric</p> -->
                 <a href="https://www.xcelenergy.com/start,_stop,_transfer" class="btn btn-outline-primary btn-lg btn-block">Start or Stop Electric Service</a>
                <!-- <p>800-895-4999</p> -->
-                <a href="https://www.xcelenergy.com/start,_stop,_transfer" class="btn btn-outline-danger btn-lg btn-block">Move-In: Emergency Contact</a>
+                <a href="emergency_contact.html" class="btn btn-outline-danger btn-lg btn-block">Move-In: Emergency Contact</a>
                 
-                <a href="https://www.xcelenergy.com/start,_stop,_transfer" class="btn btn-outline-danger btn-lg btn-block">Move-Out: Forwarding Address</a>
+                <a href="forwarding_address.html" class="btn btn-outline-danger btn-lg btn-block">Move-Out: Forwarding Address</a>
 
 
             </div>
@@ -172,13 +190,13 @@
       </div>
     </section> -->
 
-    <section id="contact">
+    <section id="contact" class="section" style="margin-top: -20px">
 
       <div class="row fan" style="text-align:center">
         <div class="col-sm">
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSfvh0EtnSUk999k8GfZwTUs0Q_iB1b8L1Ab6Yj40bJiB21zJg/viewform?embedded=true"
-            width="100%" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
         
       </div>
