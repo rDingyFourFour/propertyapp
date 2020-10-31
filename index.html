@@ -27,35 +27,35 @@
 
 <body>
 
-  <!-- <header class="text-center">
-    <h1>2625 Columbus</h1>
-  </header> -->
+  <header class="text-center">
+    <!-- <h1>2625 Columbus</h1> -->
+  </header>
 
-  <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+  <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
   <!-- <nav class="navbar navbar-default navbar-static-top"> -->
 
-    <a class="navbar-brand" href="https://2625columbusmpls.com">2625 Columbus</a>
+    <a class="navbar-brand" href="https://www.2625columbusmpls.com">2625 Columbus</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03"
-      aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+      aria-controls="navbarsExample03" aria-expanded="f  hf false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-  
+    
     <div class="collapse navbar-collapse" id="navbarsExample03">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
           <a class="nav-link" href="#maint_req">Maintenance</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#pay_rent">Pay Rent</a>
+          <a class="nav-link" href="#pay_rent" data-toggle="collapse" data-target=".navbar-collapse.show">Pay Rent</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#trash_col">Trash Collection</a>
+          <a class="nav-link" href="#trash_col" data-toggle="collapse" data-target=".navbar-collapse.show">Trash Collection</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#move_in_out">Move-In/Out</a>
+          <a class="nav-link" href="#move_in_out" data-toggle="collapse" data-target=".navbar-collapse.show">Move-In/Out</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link" href="#contact" data-toggle="collapse" data-target=".navbar-collapse.show">Contact</a>
         </li>
         <!-- <li class="nav-item">
           <a class="nav-link" href="#pay_rent">Pay Rent</a>
@@ -80,14 +80,17 @@
   </nav>
 
   <main class="container">
-        
+    <div class="section-divide">
+    </div>
     <section id="maint_req" class="section">
       
             <div class="row fan">
               <div class="col-sm">
                 <!-- <h4>Maintenance Request</h4> -->
                 <!-- <button type="button" class="btn btn-warning btn-lg btn-block" href='https://cozy.co/for-renters/'>Request Maintenance</button> -->
-                <a href="https://landlordrepair.com/maintenance/" class="btn btn-warning btn-lg btn-block">Maintenance Online Form</a>
+                <div class="mr-auto">
+                  <a href="https://landlordrepair.com/maintenance/" class="btn btn-warning btn-lg btn-block">Maintenance Online Form</a>
+                </div>
 
                 <p>
                   If this is an after hours EMERGENCY, please call (651) 602-2150. Be aware this number is only for emergencies that
@@ -100,6 +103,9 @@
             </div> 
         
     </section>
+
+    <div class="section-divide">
+    </div>
 
     <section id="pay_rent" class="section">
       
@@ -116,7 +122,8 @@
      
   
     </section>
-
+    <div class="section-divide">
+    </div>
     <section id="trash_col" class="section">
         
         <div class="row fan">
@@ -124,7 +131,7 @@
            
                 <div class="col-sm">
                   <h4>Trash Collection Schedule</h4>
-                 
+                    <div class="cal">
                     <!-- <iframe
                       src="https://calendar.google.com/calendar/embed?height=350&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=ZWs4aGxmMWQ4Y2ZuNzFtZWQ0dHNlZjdpNGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23616161&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0"
                       style="border-width:0" width="100%" height="400" frameborder="0" scrolling="no">
@@ -133,7 +140,7 @@
                     <iframe
                       src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%2329527A&amp;ctz=America%2FChicago&amp;src=ZWs4aGxmMWQ4Y2ZuNzFtZWQ0dHNlZjdpNGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%2329527A&amp;color=%232F6309&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0"
                       style="border:solid 3px rgb(119, 119, 119)" width="100%" height="325" frameborder="0" scrolling="no" ></iframe>
-                    
+                  </div>  
                 </div>
                 
         </div>
@@ -141,6 +148,9 @@
         
         
     </section>
+
+    <div id="move_in_out" class="section-divide">
+    </div>
 
     <!-- <section>
       
@@ -156,7 +166,7 @@
       
     </section> -->
 
-    <section id="move_in_out" class="section">
+    <section class="section">
           
           <div class="row fan">
             <div class="col-sm">
@@ -178,7 +188,8 @@
           </div>
           
     </section>
-
+    <div class="section-divide">
+    </div>
     <!-- <section>
       <div class="container">
         <div class="col-sm-12">
@@ -190,7 +201,7 @@
       </div>
     </section> -->
 
-    <section id="contact" class="section" style="margin-top: -20px">
+    <section id="contact" class="section" style="margin-top: -20px overflow: hidden">
 
       <div class="row fan" style="text-align:center">
         <div class="col-sm">
@@ -204,7 +215,8 @@
     </section>
 
     
-
+    <div class="section-divide">
+    </div>
     <!-- <section>
         <div class="container" style="margin-bottom: 20px">
           <div class="row">
