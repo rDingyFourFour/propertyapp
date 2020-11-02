@@ -28,8 +28,8 @@ h3 {
 }
 
 h4 {
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
+  /* margin-bottom: 1.5rem;
+  margin-top: 1.5rem; */
   text-align: center;
 }
 
@@ -54,6 +54,8 @@ h4 {
 
 .footer {
   background-color: #f5f5f5;
+  text-align: center;
+
 }  
 
 .navbar .in .nav li {
@@ -82,6 +84,8 @@ h4 {
   max-width: 325px;
   text-align: center;
   padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .navbar-brand {
@@ -109,7 +113,7 @@ h4 {
 .section {
   margin-top: 20px;
   border: black solid 1px;
-  padding: 1rem
+  padding: 1rem;
 }
 
 /* .maint_req {
@@ -140,8 +144,34 @@ a:hover {
 
 .section-divide {
   height: 5rem;
+  display: none
 }
 
 .navbar-toggler-icon {
   color: black;
 }
+
+.btn-warning {
+  color: white;
+  background-color: #ff9000;
+}
+
+a {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* section:before {
+    height: 54px;
+    content: "";
+    display:block;
+} */
+
+.offset {
+    height: 54px;
+}
+
+/* .section-anchor {
+  position: absolute;
+  top: -@navbar-size;
+} */
