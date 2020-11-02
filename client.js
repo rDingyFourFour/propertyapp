@@ -8,7 +8,6 @@ function onReady() {
   $('#movenav').on('click', move);
   $('#contnav').on('click', contact);
 
-
 }
 
 //functions down here
