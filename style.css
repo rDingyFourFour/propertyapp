@@ -4,11 +4,16 @@ body {
   /* scroll-padding-top: 70px; */
 }
 
-@media (max-width: 979px) {
+/* @media (max-width: 979px) {
   body {
     padding-top: 0px;
   }
-}
+} */
+
+/* body { padding-top: 40px; }
+@media screen and (max-width: 768px) {
+    body { padding-top: 0px; }
+} */
 
 header {
   background-color: white;
@@ -66,6 +71,10 @@ h4 {
 
 .navbar {
   background-color: #23395d;  
+}
+
+.collapse:before {
+  height: 100%
 }
 
 /* .nav-item {
