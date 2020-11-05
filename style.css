@@ -36,21 +36,25 @@ h4 {
   /* margin-bottom: 1.5rem;
   margin-top: 1.5rem; */
   /* text-align: center; */
-  /* font-family: 'Fugaz One', cursive; */
+  font-family: 'Fugaz One', cursive;
+  /* border: solid black 1px; */
+  padding: 1rem;
+  color: white;
+  -webkit-text-stroke: 1.5px #000000;
+  font-size: 1.75rem;
 }
 
 .container {
   
   width: 100%;
   max-width: 650px;
-  display: block;
   overflow: hidden
 }
 
-.middle {
+/* .middle {
     border-left: black solid 1px;
     width: 60px
-}
+} */
   
 .container-footer {
   width: auto;
@@ -78,15 +82,6 @@ h4 {
   height: 100%
 }
 
-/* .nav-item {
-  background-color: #FDFDFD;
-  
-} */
-
-/* .btn .btn-outline-warning .btn-lg .btn-block {
-  font-size: 10rem;
-} */
-
 .btn {
   font-size: 1.11rem;
   margin-top: 20px;
@@ -107,18 +102,6 @@ h4 {
 .header_hbp {
   margin-top: 2rem;
 }
-
-/* li {
-  padding-bottom: 20px;
-} */
-
-/* section {
-  margin: 10px;
-} */
-
-/* nav {
-  margin-bottom: 20px;
-} */
 
 .section {
   margin-top: 20px;
@@ -199,7 +182,6 @@ a:hover {
   font-style: italic;
 }
 
-p {
-  /* word-wrap:break-word; */
-  overflow-wrap:anywhere;
+#sched-header {
+  font-size: 3rem;
 }
