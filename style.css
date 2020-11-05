@@ -15,22 +15,10 @@ body {
     body { padding-top: 0px; }
 } */
 
-header {
+/* header {
   background-color: white;
   text-align: center;
-}
-
-/* .fan {
-  border: black solid 1px;
-  font-size: 1.5rem;
 } */
-
-h3 {
-  text-align: center;
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
-
-}
 
 h4 {
   /* margin-bottom: 1.5rem;
@@ -41,7 +29,7 @@ h4 {
   padding: 1rem;
   color: white;
   -webkit-text-stroke: 1.5px #000000;
-  font-size: 1.75rem;
+  font-size: 2.5rem;
 }
 
 .container {
@@ -83,9 +71,9 @@ h4 {
 }
 
 .btn {
-  font-size: 1.11rem;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  font-size: 1.25rem;
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
   width:100%;
   text-align: center;
   padding: 1rem;
@@ -109,23 +97,9 @@ h4 {
   padding: 1rem;
 }
 
-/* .maint_req {
-  text-align: right
-} */
-
 .cal {
   max-width: 500px;
 }
-
-/* .btn-rt {
-  float: right;
-  overflow:hidden */
-  /* position: absolute; right: 0;
-} */
-
-/* .col-sm {
-  text-align: center;
-} */
 
 .nav-link {
   color: #FDFDFD;
@@ -135,11 +109,6 @@ a:hover {
   color: #ffba3b;
 }
 
-/* .section-divide {
-  height: 5rem;
-  display: none
-} */
-
 .navbar-toggler-icon {
   color: black;
 }
@@ -148,26 +117,6 @@ a:hover {
   color: white;
   background-color: #ff9000;
 }
-
-/* a {
-  width: 100%;
-  max-width: 400px;
-} */
-
-/* section:before {
-    height: 54px;
-    content: "";
-    display:block;
-} */
-
-/* .offset {
-    height: 54px;
-} */
-
-/* .section-anchor {
-  position: absolute;
-  top: -@navbar-size;
-} */
 
 #maint-req {
   overflow:wrap;
