@@ -35,7 +35,8 @@ h3 {
 h4 {
   /* margin-bottom: 1.5rem;
   margin-top: 1.5rem; */
-  text-align: center;
+  /* text-align: center; */
+  /* font-family: 'Fugaz One', cursive; */
 }
 
 .container {
@@ -87,7 +88,7 @@ h4 {
 } */
 
 .btn {
-  font-size: 1.25rem;
+  font-size: 1.11rem;
   margin-top: 20px;
   margin-bottom: 20px;
   width:100%;
@@ -95,10 +96,6 @@ h4 {
   padding: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-}
-
-#fwdAdd-button {
-  font-size: 1.12rem
 }
 
 .navbar-brand {
@@ -192,4 +189,17 @@ a:hover {
 #maint-req {
   overflow:wrap;
   padding:0px;
+}
+
+#gas-btn {
+  font-style: italic;
+}
+
+#electric-btn {
+  font-style: italic;
+}
+
+p {
+  /* word-wrap:break-word; */
+  overflow-wrap:anywhere;
 }

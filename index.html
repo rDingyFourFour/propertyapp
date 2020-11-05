@@ -4,34 +4,34 @@
 <head>
 
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>2625 Columbus</title>
 
-  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/navbars/">
-
+  <!-- <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/navbars/"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="navbar-top-fixed.css">
+  <!-- <link rel="stylesheet" href="navbar-top-fixed.css"> -->
   <!-- <link rel="stylesheet" href="navbar-top.css"> -->
-  <link rel="stylesheet" href="navbar.css">
+  <!-- <link rel="stylesheet" href="navbar.css"> -->
   <link rel="stylesheet" href="style.css">
 
 
     <!-- <script src="node_modules/mobile/mobile.js"></script> -->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
 
     
 
 
-  <script src="client.js"></script>
-  <!-- <script src="jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="jquery-3.5.1.slim.min.js"><\/script>')</script> -->
-  <!-- <script src="bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js"></script> -->
-
   
+  <script src="jquery-3.5.1.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="jquery-3.5.1.js"><\/script>')</script>
+  <script src="bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="client.js"></script>
   
 </head>
 
@@ -96,15 +96,16 @@
       
             <div class="row fan">
               <div class="col-sm">
-                <!-- <h4>Maintenance Request</h4> -->
+                <h4>Maintenance</h4>
                 <!-- <button type="button" class="btn btn-warning btn-lg btn-block" href='https://cozy.co/for-renters/'>Request Maintenance</button> -->
-                <div class="mr-auto">
-                  <a href="https://landlordrepair.com/maintenance/" class="btn btn-warning btn-lg">Maintenance Online Form</a>
-                </div>
+            
+                  <a href="https://landlordrepair.com/maintenance/" class="btn btn-warning btn-lg text-nowrap">Maintenance Online Form</a>
+                  
                   <p>After hours EMERGENCY, please call (651) 602-2150.
                   </p>
                   <p>Submit a request during general hours and are unable to use the online form, please call (651) 401-1019.
                   </p>
+                 
                 </div>
                 
               </div>         
@@ -118,8 +119,9 @@
       
         <div class="row fan">
           <div class="col-sm">
-            <!-- <h4>Pay Rent</h4> -->
+            <h4>Pay Rent</h4>
             <a href="https://cozy.co/for-renters/" class="btn btn-success btn-lg btn-block">Pay Rent Online</a>
+            <p>Online rent payment via Cozy.co</p>
                               
 
           </div>
@@ -176,17 +178,16 @@
             <div class="col-sm">
               <h4>Move-In/Out</h4>
               <!-- <p>Centerpoint Gas</p> -->
-              <div >
-              <a href="https://move.centerpointenergy.com/move/#/" class="btn btn-primary btn-lg">Start or Stop Gas Service</a>
+              <div>
+              <a href="https://move.centerpointenergy.com/move/#/" class="btn btn-primary btn-lg btn-block" role="button">Start or Stop <span id="gas-btn">GAS Service</span></a>
               <!-- <p>800-245-2377</p> -->
               
               <!-- <p>Xcel Electric</p> -->
-              <a href="https://www.xcelenergy.com/start,_stop,_transfer" class="btn btn-primary btn-lg">Start or Stop Electric
-                Service</a>
+              <a href="https://www.xcelenergy.com/start,_stop,_transfer" class="btn btn-primary btn-lg btn-block" role="button">Start or Stop <span id="electric-btn">ELECTRIC Service</span></a>
               <!-- <p>800-895-4999</p> -->
-              <a href="emergency_contact.html" class="btn btn-primary btn-lg">Move-In: Emergency Contact</a>
+              <a href="emergency_contact.html" class="btn btn-primary btn-lg btn-block" role="button">Emergency Contact Form</a>
               
-              <a href="forwarding_address.html" id="fwdAdd-button" class="btn btn-primary btn-lg">Move-Out: Forwarding Address</a>
+              <a href="forwarding_address.html" id="fwdAdd-button" class="btn btn-primary btn-lg btn-block" role="button">Forwarding Address Form</a>
               </div>
                 
 
@@ -212,6 +213,7 @@
 
       <div class="row fan" style="text-align:center">
         <div class="col-sm">
+          <h4>Contact</h4>
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSfvh0EtnSUk999k8GfZwTUs0Q_iB1b8L1Ab6Yj40bJiB21zJg/viewform?embedded=true"
             width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
