@@ -15,17 +15,9 @@ body {
     body { padding-top: 0px; }
 } */
 
-/* header {
-  background-color: white;
-  text-align: center;
-} */
-
 h4 {
-  /* margin-bottom: 1.5rem;
-  margin-top: 1.5rem; */
-  /* text-align: center; */
   font-family: 'Fugaz One', cursive;
-  /* border: solid black 1px; */
+  border: solid black 1px;
   padding: 1rem;
   color: white;
   -webkit-text-stroke: 1.5px #000000;
